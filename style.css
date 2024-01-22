@@ -1,0 +1,210 @@
+
+#nav{
+  animation: bounce;
+  animation-duration: 2s;
+}
+
+
+#nt{
+  padding-top: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  
+}
+
+
+
+
+.dropbtn {
+  background-color:white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  padding-top: 37px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color:;
+}
+
+
+
+
+
+
+
+.card1 {
+  margin-top: 2em;
+  padding: 1.5em 0.5em 0.5em;
+  border-radius: 2em;
+  text-align: center;
+  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); */
+  border: none;
+}
+.card1 img {
+  width: 100%;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.card1 .card-title {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+/* .card1 .btn {
+  border-radius: 2em;
+  background-color: teal;
+  color: #ffffff;
+  padding: 0.5em 1.5em;
+} */
+.card1 .btn:hover {
+  background-color: rgba(0, 128, 128, 0.7);
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.card-text1{
+  font-size: small;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-text2{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: smaller;
+}
+
+
+.checked {
+  color: orange;
+  
+}
+
+
+.text-white{
+  text-decoration: none;
+  
+}
+
+.tex{
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  font-size: medium;
+  font-size: 20px;
+}
+
+
+/* #shirt{
+transition: all 0.3ms;
+}
+
+
+#shirt:hover{
+  transform: scale(1.10);
+}
+
+#tr{
+  transition: all 0.3s;
+}
+#tr:hover{
+transform: scale(1.10);
+}
+
+
+#elt{
+  transition: all 0.3s;
+  }
+  
+  
+  #elt:hover{
+    transform: scale(1.10);
+  }
+
+  #ec{
+    transition: all 0.3s;
+    }
+    
+    
+    #ec:hover{
+      transform: scale(1.10);
+    }
+
+    
+
+
+    #sc{
+      transition: all 0.3s;
+      }
+      
+      
+      #sc:hover{
+        transform: scale(1.10);
+      }
+
+
+
+      #ti{
+        transition: all 0.3s;
+        }
+        
+        
+        #ti:hover{
+          transform: scale(1.10);
+        } */
+
+
+
+
+
+
+
+
+        /* Common styles for scaling */
+.transition-scale {
+  transition: all 0.3s;
+}
+
+/* Individual styles for specific elements */
+#shirt:hover,
+#tr:hover,
+#elt:hover,
+#ec:hover,
+#sc:hover,
+#ti:hover {
+  transform: scale(1.10);
+}
